@@ -142,12 +142,12 @@ HTML de Prueba [archivo ..\reports\htmlxml.js]
 Consulta del servicio: localhost:3000:
 --------------------------------------
 
-<img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
 
 Conversion HTML a EXCEL: [Se llama al servicio conversor:  http://localhost:3000/conversor]
 -------------------------------------------------------------------------------------------
 
-<img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495410-7f608f00-4384-11ea-996a-1a95ed343b7f.PNG" />
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495410-7f608f00-4384-11ea-996a-1a95ed343b7f.PNG" />
 
 Se genera el archivo en el equipo del cliente
 ---------------------------------------------
@@ -157,12 +157,12 @@ Se genera el archivo en el equipo del cliente
 Mostrar el archivo en Excel con el resultado
 --------------------------------------------
 
-<img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495407-7ec7f880-4384-11ea-8b9a-97f29db2f57a.PNG" />
+<img width="100%" src = "https://user-images.githubusercontent.com/7141537/73495407-7ec7f880-4384-11ea-8b9a-97f29db2f57a.PNG" />
 
 Consulta del servicio: localhost:3000
 -------------------------------------
 
-<img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
 
 Agregar Valores a un HTML: [Se llama al servicio: http://localhost:3000/change]
 -------------------------------------------------------------------------------
