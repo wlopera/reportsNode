@@ -2,12 +2,41 @@
 Node JS utor: wlopera      @ DIC 2019
 Reporte HTML to EXCEL
 
+Instalaciones Requeridas:
+-------------------------
+
+  1.- Instalar nodeJS
+  2.- Instalar Express
+  3.- Instalar nodemon
+  4.- Instalar html2xlsx
+  5.- Instalar handlebars
+  6.- Instalar md5
+
+Script Requerido - package.json:
+--------------------------------
+
+scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js",
+      "nodemon": "nodemon ./server.js localhost"
+ },
+    
+Subir el servidor:
+------------------
+
+> npm run nodemon
+
+
+  
 ## Codigo Fuente
 
 ![a](https://user-images.githubusercontent.com/7141537/73496236-1ed25180-4386-11ea-8415-dc90a83bc006.PNG)
 
 
 # Salida del programa - pruebas
+
+## HTML de Prueba
+
 
 ## Consulta del servicio: localhost:3000
 
