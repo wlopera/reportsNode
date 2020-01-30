@@ -35,7 +35,7 @@ Subir el servidor:
   
 ## Codigo Fuente ejemplo 
 
-![a](https://user-images.githubusercontent.com/7141537/73496236-1ed25180-4386-11ea-8415-dc90a83bc006.PNG)
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73496236-1ed25180-4386-11ea-8415-dc90a83bc006.PNG" />
 
 
 # Salida del programa - pruebas
@@ -137,7 +137,7 @@ exports.conversor = conversor;
 
 ## Consulta del servicio: localhost:3000
 
-![1](https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG)
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
 
 ## Conversion HTML a EXCEL: Click boton Probar [Se llama al servicio conversor:  http://localhost:3000/conversor]
 
