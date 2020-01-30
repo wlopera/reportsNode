@@ -20,11 +20,13 @@ Instalaciones Requeridas:
 Script Requerido - package.json:
 --------------------------------
 
-scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node server.js",
-      "nodemon": "nodemon ./server.js localhost"
- },
+  scripts": {
+  
+       "test": "echo \"Error: no test specified\" && exit 1",
+       "start": "node server.js",
+       "nodemon": "nodemon ./server.js localhost"
+        
+   },
     
 Subir el servidor:
 ------------------
@@ -150,7 +152,7 @@ Conversion HTML a EXCEL: [Se llama al servicio conversor:  http://localhost:3000
 Se genera el archivo en el equipo del cliente
 ---------------------------------------------
 
-<img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495411-7f608f00-4384-11ea-92ab-c15079d93b5c.PNG" />
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495411-7f608f00-4384-11ea-92ab-c15079d93b5c.PNG" />
 
 Mostrar el archivo en Excel con el resultado
 --------------------------------------------
@@ -165,7 +167,7 @@ Consulta del servicio: localhost:3000
 Agregar Valores a un HTML: [Se llama al servicio: http://localhost:3000/change]
 -------------------------------------------------------------------------------
 
-<img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495408-7ec7f880-4384-11ea-8621-ee1d4adf7648.PNG" />
+<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495408-7ec7f880-4384-11ea-8621-ee1d4adf7648.PNG" />
 
 ### En construcción 
 
