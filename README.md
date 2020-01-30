@@ -45,7 +45,7 @@ Codigo Fuente ejemplo
 
 HTML de Prueba [archivo ..\reports\htmlxml.js]
 -----------------------------------------------
-
+```javascript
 const fs = require("fs");
 const htmlTo = require("html2xlsx");
 const md5 = require("md5");
@@ -75,6 +75,7 @@ const conversor = () => {
     border: 1px solid #eee;
   }
   </style>
+  ```
   <table>
     <tr>
       <th> Nombre </th>
