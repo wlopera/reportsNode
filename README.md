@@ -33,7 +33,8 @@ Subir el servidor:
 
 
   
-## Codigo Fuente ejemplo 
+Codigo Fuente ejemplo 
+----------------------
 
 <img width="80%" src = "https://user-images.githubusercontent.com/7141537/73496236-1ed25180-4386-11ea-8415-dc90a83bc006.PNG" />
 
@@ -141,8 +142,8 @@ Consulta del servicio: localhost:3000:
 
 <img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
 
-Conversion HTML a EXCEL: Click boton Probar [Se llama al servicio conversor:  http://localhost:3000/conversor]
---------------------------------------------------------------------------------------------------------------
+Conversion HTML a EXCEL: [Se llama al servicio conversor:  http://localhost:3000/conversor]
+-------------------------------------------------------------------------------------------
 
 <img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495410-7f608f00-4384-11ea-996a-1a95ed343b7f.PNG" />
 
@@ -161,8 +162,8 @@ Consulta del servicio: localhost:3000
 
 <img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
 
-Agregar Valores a un HTML: Click boton Probar [Se llama al servicio: http://localhost:3000/change]
---------------------------------------------------------------------------------------------------
+Agregar Valores a un HTML: [Se llama al servicio: http://localhost:3000/change]
+-------------------------------------------------------------------------------
 
 <img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495408-7ec7f880-4384-11ea-8621-ee1d4adf7648.PNG" />
 
