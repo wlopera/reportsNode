@@ -139,8 +139,7 @@ const conversor = () => {
 
 exports.conversor = conversor;
 
-
-:::Consulta del servicio: localhost:3000:
+Consulta del servicio: localhost:3000:
 --------------------------------------
 
 <img width="50%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
