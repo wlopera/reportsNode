@@ -2,11 +2,12 @@
 Node JS utor: wlopera      @ DIC 2019
 Reporte HTML to EXCEL
 
-## Codigo
+## Codigo Fuente
 
-![Captura 1](https://user-images.githubusercontent.com/7141537/70851138-8298cd80-1e5f-11ea-815f-acd88c027300.PNG)
+![a](https://user-images.githubusercontent.com/7141537/73496236-1ed25180-4386-11ea-8415-dc90a83bc006.PNG)
 
-## Salida del programa - pruebas
+
+# Salida del programa - pruebas
 
 ## Consulta del servicio: localhost:3000
 
@@ -28,7 +29,7 @@ Reporte HTML to EXCEL
 
 ![1](https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG)
 
-Agregar Valores a un HTML: Click boton Probar [Se llama al servicio: http://localhost:3000/change]
+## Agregar Valores a un HTML: Click boton Probar [Se llama al servicio: http://localhost:3000/change]
 
 ![5](https://user-images.githubusercontent.com/7141537/73495408-7ec7f880-4384-11ea-8621-ee1d4adf7648.PNG)
 
