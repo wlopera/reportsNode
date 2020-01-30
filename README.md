@@ -137,7 +137,7 @@ exports.conversor = conversor;
 
 ## Consulta del servicio: localhost:3000
 
-<img width="80%" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
+<img width="80%" border="4" src = "https://user-images.githubusercontent.com/7141537/73495409-7f608f00-4384-11ea-9b65-89598fea5fd6.PNG" />
 
 ## Conversion HTML a EXCEL: Click boton Probar [Se llama al servicio conversor:  http://localhost:3000/conversor]
 
