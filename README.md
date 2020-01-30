@@ -43,97 +43,97 @@ Subir el servidor:
 HTML de Prueba [archivo ..\reports\htmlxml.js]
 -----------------------------------------------
 
-const fs = require("fs");
-const htmlTo = require("html2xlsx");
-const md5 = require("md5");
+  const fs = require("fs");
+  const htmlTo = require("html2xlsx");
+  const md5 = require("md5");
 
-const conversor = () => {
-  const fileName =
-    __dirname +
-    "/tmp/" +
-    md5(Buffer.from(JSON.stringify(new Date()))) +
-    ".xlsx";
+  const conversor = () => {
+   const fileName =
+      __dirname +
+      "/tmp/" +
+      md5(Buffer.from(JSON.stringify(new Date()))) +
+      ".xlsx";
 
-  htmlTo(
+    htmlTo(
     `
-  <style type="text/css">
-  table th {
-    color: white;
-    height: 20px;
-    width: 400px;
-    background-color:darkblue;
-    border: 1px solid #eee;
-  }
-  table td {
-    color: #666;
-    height: 20px;
-    width: 400px;
-    background-color: lightgreen;
-    border: 1px solid #eee;
-  }
-  </style>
-  <table>
-    <tr>
-      <th> Nombre </th>
-      <th> cedula </th>
-      <th> Correo </th>
-      <th> Salon de la fama </th>
-      <th> Salario </th>
-    </tr>    
-    <tr>
-      <td>Andres Galarraga</td>
-      <td>11111111</td>
-      <td>agalarraga@test.com</td>
-      <td data-type="bool">false</td>
-      <td type="number">55000</td>
-    </tr>
-    <tr>
-      <td>Baudilio Diaz</td>
-      <td>22222222</td>
-      <td>bdiaz@test.com</td>
-      <td data-type="bool">false</td>
-      <td type="number">25000</td>
-    </tr>
-    <tr>
-      <td>Carlos Guillen</td>
-      <td>33333333</td>
-      <td>cguillen@test.com</td>
-      <td data-type="bool">false</td>
-      <td type="number">20000</td>
-    </tr>
-    <tr>
-      <td>Damaso Blanco</td>
-      <td>444444444</td>
-      <td>dblanco@test.com</td>
-      <td data-type="bool">false</td>
-      <td type="number">50000</td>
-    </tr>
-    <tr>
-      <td>Luis Aparicio</td>
-      <td>555555555</td>
-      <td>laparicio@test.com</td>
-      <td data-type="bool">true</td>
-      <td type="number">100000</td>
-    </tr>
-    <tr>
-      <td colspan="4"></td>
-      <td type="formula">SUM(E2:E6)</td>
-    </tr>
-  </table>
-`,
-    (err, file) => {
-      if (err) return console.error(err);
-
-      file
-        .saveAs()
-        .pipe(fs.createWriteStream(fileName))
-        .on("finish", () => console.log("Creado el archivo: ", fileName));
+    <style type="text/css">
+    table th {
+      color: white;
+      height: 20px;
+      width: 400px;
+      background-color:darkblue;
+      border: 1px solid #eee;
     }
-  );
-  return fileName;
-};
+    table td {
+      color: #666;
+      height: 20px;
+      width: 400px;
+      background-color: lightgreen;
+      border: 1px solid #eee;
+    }
+    </style>
+    <table>
+      <tr>
+        <th> Nombre </th>
+        <th> cedula </th>
+        <th> Correo </th>
+        <th> Salon de la fama </th>
+        <th> Salario </th>
+      </tr>    
+      <tr>
+        <td>Andres Galarraga</td>
+        <td>11111111</td>
+        <td>agalarraga@test.com</td>
+        <td data-type="bool">false</td>
+        <td type="number">55000</td>
+      </tr>
+      <tr>
+        <td>Baudilio Diaz</td>
+        <td>22222222</td>
+        <td>bdiaz@test.com</td>
+        <td data-type="bool">false</td>
+        <td type="number">25000</td>
+      </tr>
+      <tr>
+        <td>Carlos Guillen</td>
+        <td>33333333</td>
+        <td>cguillen@test.com</td>
+        <td data-type="bool">false</td>
+        <td type="number">20000</td>
+      </tr>
+      <tr>
+        <td>Damaso Blanco</td>
+        <td>444444444</td>
+        <td>dblanco@test.com</td>
+        <td data-type="bool">false</td>
+        <td type="number">50000</td>
+      </tr>
+      <tr>
+        <td>Luis Aparicio</td>
+        <td>555555555</td>
+        <td>laparicio@test.com</td>
+        <td data-type="bool">true</td>
+        <td type="number">100000</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td type="formula">SUM(E2:E6)</td>
+      </tr>
+    </table>
+  `,
+      (err, file) => {
+        if (err) return console.error(err);
 
-exports.conversor = conversor;
+        file
+          .saveAs()
+          .pipe(fs.createWriteStream(fileName))
+          .on("finish", () => console.log("Creado el archivo: ", fileName));
+      }
+    );
+    return fileName;
+  };
+
+  exports.conversor = conversor;
 
 ## Consulta del servicio: localhost:3000
 
